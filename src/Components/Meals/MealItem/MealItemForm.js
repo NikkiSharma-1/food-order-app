@@ -1,9 +1,9 @@
 import Input from '../../UI/Input';
-import classes from './MealItemForm.css';
+import './MealItemForm.css';
 
 const MealItemForm = (props) => {
   return (
-    <form className={classes.form}>
+    <form className='form'>
       <Input
         label='Amount'
         input={{
